@@ -101,3 +101,45 @@ svg {
 button:hover {
     background-color: hsl(158, 36%, 15%);
 }
+
+@media screen and (min-width: 900px) {
+   .container {
+    width: 650px;
+    flex-direction: row;
+    margin-top: 4rem;
+    justify-content: left;
+   }
+   .banner {
+    background-image: url("images/image-product-desktop.jpg");
+    background-size: cover;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 0px;
+    width: 300px;
+    height: 28rem;
+
+    
+   }
+   .card-info {
+    padding: 0rem 2rem;
+    width: 300px;
+    height: 28rem;
+   }
+   .text {
+    width: 50%;
+   }
+   .text h2 {
+    font-size: 18px;
+    padding-top: 1.5rem;
+   }
+
+   .text h1 {
+    font-size: 32px;
+    width: 200px;
+   }
+   .text p {
+    width: 260px;
+   }
+   button {
+    width: 100%;
+   }
+}
